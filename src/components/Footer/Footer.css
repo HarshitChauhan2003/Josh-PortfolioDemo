@@ -1,0 +1,87 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 621px;
+    width: 100vw;
+    padding-bottom: 20px;
+    margin-top: 5vh;
+    color: rgba(240, 240, 246, 1);
+}
+
+.technologies {
+    display: flex;
+    height: 144px;
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.Tech-image {
+    margin: 0 10px; /* To add spacing between images */
+}
+
+.logoimage {
+   display: block; 
+    width: 158px;
+    height: 76px;
+    margin-top: 45px;
+    margin-left: 8vw;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 120px;
+    width: 1244px;
+    height: 230px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 1);
+}
+
+ul div {
+    display: block;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    margin-bottom: 10px; /* Adjust spacing between links */
+}
+
+
+.Icons {
+    margin-bottom: 20px;
+}
+
+.Icon {
+    height: 40px;
+    width: 73px;
+    margin-right: 40px;
+}
+
+.icon-rating {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(118, 118, 118, 1);
+}

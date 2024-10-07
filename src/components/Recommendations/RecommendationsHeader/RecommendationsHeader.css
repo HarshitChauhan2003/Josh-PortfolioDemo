@@ -1,0 +1,32 @@
+/* RecommendationsHeader.css */
+.recommendations-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 502px;
+    height: 92px;
+  }
+  
+  .recommendations-header h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 123.6%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  
+  .recommendations-header p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #767676;
+  }
+  

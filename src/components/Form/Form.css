@@ -1,0 +1,187 @@
+/* Container for form and contact sections */
+.form-contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 50px; /* Adds space between form and contact */
+  margin-left: 3vw;
+  margin-bottom: 10vh;
+}
+
+/* Form section styling */
+.form-section {
+  flex: 1; /* Take available space */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 45px;
+  width: 60%; /* Adjust width to your needs */
+}
+
+.form-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #2B2B2B;
+}
+
+.form-field-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px 36px;
+  gap: 20px;
+  text-align: start;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.field-label {
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #767676;
+}
+
+.input-box {
+  border: none;
+  width: 100%;
+  height: 45px;
+  background: #F0F0F6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #767676;
+}
+
+.message-box {
+  height: 200px;
+}
+
+.send-message-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 151px;
+  height: 50.83px;
+  background: #FFB400;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.button-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Contact section styling */
+.contact {
+  margin-right: 2vw;
+  flex: 0.4; /* Take less space compared to the form */
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 35%;
+}
+
+.contact-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2B2B2B;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  position: relative;
+  width: 100%; /* Ensuring the width of the contact box fits the container */
+  height: 215px;
+  background-color: #FFFFFF;
+  /* border-radius: 8px; */
+  padding: 40px 20px 20px; /* Padding adjusted for top space */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 20px; /* Adds spacing between contact boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.ellipse-icon {
+  position: relative;
+  top: -30px; /* Moves the icon above the card */
+  left: 10%;
+  transform: translateX(-50%); /* Center the icon horizontally */
+  width: 60px; /* Adjust size as needed */
+  height: 60px;
+  background-color: #FFB400;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Ensure the icon stays above the content */
+}
+
+.location-icon,
+.email-icon,
+.phone-icon {
+  width: 18px;
+  height: 18px;
+  background-color: #2B2B2B;
+}
+
+.location-details,
+.email-details,
+.phone-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:stretch;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: stretch;
+}
+
+.contact-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #767676;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.contact-info {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #767676;
+  text-align: right;
+  justify-content: flex-end;
+}

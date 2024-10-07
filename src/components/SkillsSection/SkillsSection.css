@@ -1,0 +1,143 @@
+/* SkillsSection.css */
+body{
+  background-color: rgba(240, 240, 246, 1);
+}
+.skills-section {
+  position: relative;
+  width: 1245px;
+  margin: 0 auto;
+  background-color:rgba(240, 240, 246, 1) ;
+}
+
+.skills-heading {
+  margin-top: 5rem ;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%; /* or 40px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #2B2B2B;
+  margin-bottom: 20px;
+}
+.skills-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px; /* or 160% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #767676;
+  width: 438px;
+  margin: 0 auto 40px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-card {
+  background: #FFFFFF;
+  width: 385px;
+  height: 316px;
+  margin-bottom: 40px;
+  
+  padding: 35px 52px;
+  box-sizing: border-box;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.skill-card-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22x; /* or 123.6% */
+  text-transform: capitalize;
+  color: #2B2B2B;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.skill-name {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px; /* or 160% */
+  color: #767676;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.skill-percentage {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+  text-transform: capitalize;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.progress-bar {
+  width: 290.51px;
+  height: 4.04px;
+  background-color: transparent; /* Light gray background */
+  border-radius: 30px;
+  border: 0.5px solid #FFB400;
+  border-radius: 30px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #FFB400; /* Yellow */
+  border-radius: 30px;
+}
+
+.add-skill-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 16px;
+  gap: 10px;
+
+  width: 151px;
+  height: 51px;
+
+  background: #FFB400;
+  border-radius: 5px;
+
+  margin: 40px auto 0; /* Centering the button */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.add-skill-button {
+  /* width: 73px;
+  height: 17px; */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+

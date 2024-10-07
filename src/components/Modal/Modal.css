@@ -1,0 +1,259 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Overlay background */
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* High z-index to overlay on other content */
+    
+  }
+  
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 28px;
+    gap: 0px;
+    
+    width: 58vw;
+    height: 90vh; /* Adjust height based on content */
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative; /* To position inner elements */
+  }
+
+  .modal-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+  }
+  
+  .domain-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 777px;
+    height : 100px;
+  }
+  
+  .domain-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #2B2B2B;
+  }
+  
+  .domain-input-container {
+    position: relative; /* For positioning the input */
+    margin-top: 0;
+  }
+  
+  .domain-input {
+    width: 777px;
+    height: 50px;
+    background: #F0F0F6;
+    border-radius: 5px;
+    padding: 10px; /* Adjust padding */
+    border: none; /* Remove border for a cleaner look */
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: rgba(43, 43, 43, 0.5);
+  }
+  
+  .inputs-section {
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 777px;
+    height: 400px; /* Adjust height based on content */
+  }
+  
+  .input-group1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 777px;
+    height: 50px;
+    margin-bottom: 4.6vh;
+  }
+  .input-group {
+    /* border: 2px solid palevioletred; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 777px;
+    height: 50px;
+  }
+  
+  .input-skill-container {
+    flex: 1; /* Allow the skill input to take available space */
+    text-align: left;
+  }
+  
+  .skill-input {
+    width: 606.66px;
+    height: 60px;
+    background: #F0F0F6;
+    border-radius: 5px;
+    padding: 10px; /* Adjust padding */
+    border: none; /* Remove border for a cleaner look */
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+  }
+  
+  .input-proficiency-container {
+    flex: 0 0 150px; /* Set fixed width for proficiency input */
+    text-align: left;
+  }
+  
+  .proficiency-input {
+    width: 150.34px;
+    height: 60px;
+    background: #F0F0F6;
+    border-radius: 5px;
+    padding: 10px; /* Adjust padding */
+    border: none; /* Remove border for a cleaner look */
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+  }
+  .buttons{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 20px; /* Add space between buttons */
+    position: absolute; /* Position relative to modal container */
+    bottom: 20px; /* Distance from the bottom of the modal */
+    right: 55px; /* Distance from the right of the modal */
+    
+}
+  .add-skill-button {
+    width: 151px;
+    height: 51px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: auto;
+    align-items: right;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    cursor: pointer; /* Add pointer cursor for better UX */
+  }
+  
+  .cancel-button{
+    width: 151px;
+    height: 51px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 82, 82, 1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgba(255, 82, 82, 1);
+    cursor: pointer;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 10px; /* Adjust position */
+    right: 10px; /* Adjust position */
+    background: transparent;
+    border: none;
+    font-size: 20px; /* Adjust size */
+    cursor: pointer; /* Pointer cursor */
+  }
+  .frame-273 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 777px;
+    height: 27.5px;
+  }
+  
+  .frame-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #2B2B2B;
+    flex: none;
+    order: 0;
+    flex-grow: 1; /* Allow it to take available space */
+  }
+  
+  .frame-proficiency {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #2B2B2B;
+    flex: none;
+    order: 1;
+    flex-grow: 0; /* Fixed size for proficiency label */
+  }
+
+  .skills-title{ 
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-family:'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: rgba(43, 43, 43, 1);
+  }
+
+.proficiency-title{
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-family:'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: rgba(43, 43, 43, 1);
+}
+
+  .skills-start{
+    font-family:'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.4px;
+    color: rgba(43, 43, 43, 1);
+    margin-top: 1.5vh;
+  }
+
+  @media (max-width: 768px) {
+    .modal-container {
+        width: 90vw; /* Full width on smaller screens */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .modal-title {
+        font-size: 28px; /* Responsive font size */
+    }
+
+    .skills-title, .proficiency-title {
+        font-size: 16px; /* Responsive font size */
+    }
+
+    .add-skill-button, .cancel-button {
+        width: 100%; /* Full width buttons */
+    }
+}

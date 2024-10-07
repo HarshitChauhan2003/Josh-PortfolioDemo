@@ -1,0 +1,182 @@
+/* Hero Section Styling */
+.hero-section {
+  position: relative;
+  display: flex;
+  margin-top: 0;
+  height: 100vh;
+  background-image: url('../../Assets/Background Image.jpg'); /* Path to the background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Combined Content Styling */
+.hero-content {
+  display: flex;  /* Use flex to combine left and right parts */
+  flex-direction: row; /* Ensure they are in a row */
+  width: 100%; /* Take full width */
+  height: 100%; /* Take full height */
+}
+
+/* Left Section (Text) Styling */
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative; /* Maintain the position */
+  padding-left: 5%; /* Adjust padding for spacing */
+}
+
+.hero-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #2B2B2B;
+  text-align: left;
+  margin-bottom: 10vh;
+}
+
+.hero-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #767676;
+  text-align: left;
+}
+
+/* Hire Me Button */
+.hire-me-button {
+  width: 154px;
+  height: 51px;
+  background: #FFB400;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15vh;
+}
+
+.hire-me-button span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2B2B2B;
+}
+
+/* Right Section (Graphic) Styling */
+.hero-right {
+  flex: 1; /* Allow this section to grow */
+  position: relative; /* Maintain the position */
+  display: flex;
+  justify-content: center; /* Center the graphic */
+  align-items: center; /* Center vertically */
+}
+
+.hero-graphic {
+  width: 100%; /* Make it responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Shape Styling */
+.shapes {
+  position: relative;
+}
+
+/* Ellipse Styling */
+.ellipse {
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+/* Additional shape styling remains unchanged... */
+ /* Ellipse 12 */
+ .ellipse-12 {
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  left: 742.39px;
+  top: 222.15px;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+}
+
+/* Ellipse 16 */
+.ellipse-16 {
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  left: 125.89px;
+  top: 721.29px;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+}
+
+/* Ellipse 13 */
+.ellipse-13 {
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  left: 796.42px;
+  top: 664.58px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+}
+
+/* Ellipse 15 */
+.ellipse-15 {
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  left: 57.39px;
+  top: 192.47px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+}
+
+/* Rectangle Styling */
+.rectangle {
+  box-sizing: border-box;
+}
+
+/* Rectangle 51 */
+.rectangle-51 {
+  position: absolute;
+  width: 22.6px;
+  height: 21.83px;
+  left: 1288.19px;
+  top: 245.97px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: matrix(0.91, 0.42, -0.46, 0.89, 0, 0);
+}
+
+/* Rectangle 52 */
+.rectangle-52 {
+  position: absolute;
+  width: 22.6px;
+  height: 21.83px;
+  left: 543.78px;
+  top: 601.23px;
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  transform: matrix(0.91, 0.42, -0.46, 0.89, 0, 0);
+}
+
+/* Polygon Styling */
+.polygon {
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Triangle shape */
+}
+
+/* Polygon 1 */
+.polygon-1 {
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  left: 1314.64px;
+  top: 728.04px;
+  border: 2px solid rgba(255, 46, 0, 0.8);
+}
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    height: auto;
+  }
+}

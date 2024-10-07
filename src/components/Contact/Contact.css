@@ -1,0 +1,97 @@
+.contact-section {
+  position: relative;
+  width: 372.7px;
+  height: 760px;
+  left: 969px;
+  top: 0;
+  background-color: rgba(240, 240, 246, 1);
+}
+
+.contact-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2B2B2B;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Generic box styling for all contact sections */
+.contact-box {
+  position: relative;
+  width: 100%; /* Ensuring the width of the contact box fits the container */
+  height: 211.11px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Adds spacing between contact boxes */
+  display: flex;
+  align-items: center; /* Aligns items vertically within the box */
+}
+
+.ellipse-icon {
+  width: 40.29px;
+  height: 40.21px;
+  background-color: #FFB400;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Adds spacing between the icon and the text */
+}
+
+.location-icon,
+.email-icon,
+.phone-icon {
+  width: 18.13px;
+  height: 18.1px;
+  background-color: #2B2B2B;
+}
+
+/* Flexbox for content alignment */
+.location-details,
+.email-details,
+.phone-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.contact-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #767676;
+}
+
+.contact-info {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #767676;
+  text-align: right;
+}
+
+/* Location box */
+.location-box {
+  top: 5vh;
+}
+
+/* Email box */
+.email-box {
+  top: 5vh; /* Adjust top position */
+}
+
+/* Phone box */
+.phone-box {
+  top: 5vh; /* Adjust top position */
+}
